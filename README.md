@@ -1,9 +1,11 @@
 timber-frame
 ============
 
-## ==----------><----------==
-## This is a work in progress
-## ==----------><----------==
+````
+==----------><----------==
+This is a work in progress
+==----------><----------==
+````
 
 If you would like to contribute, submit a pull request.
 
