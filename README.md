@@ -5,9 +5,9 @@ timber-frame
 ==----------><----------==
 This is a work in progress
 ==----------><----------==
-````
 
 If you would like to contribute, submit a pull request.
+````
 
 ## Description:
 Timber Frame is an HTML and CSS Framework for building simple wireframe presentations.
