@@ -1,0 +1,26 @@
+{
+  "name": "Timber Frames",
+  "version": "0.1.0",
+  "homepage": "https://github.com/iamhexcoder/timber-frames",
+  "authors": [
+    "Shaun Baer <shaun.baer@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets/vendor"
+  ],
+  "dependencies": {
+    "modernizr": "2.8.2",
+    "jquery": "1.11.1",
+    "respond": "1.4.2"
+  },
+  "devDependencies": {
+    "imagesloaded": "~3.1.8",
+    "masonry": "~3.1.5",
+    "flexslider": "*",
+    "normalize-css": "~3.0.2"
+  }
+}

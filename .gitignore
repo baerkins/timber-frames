@@ -1,0 +1,3 @@
+# Ignore these jamz:
+node_modules
+assets/vendor/*

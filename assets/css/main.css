@@ -1,0 +1,399 @@
+.col1 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 760px) {
+  .col1 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 960px) {
+  .col1 {
+    float: left;
+    width: 8.33333333%;
+  }
+}
+@media (min-width: 1200px) {
+  .col1 {
+    float: left;
+    width: 8.33333333%;
+  }
+}
+.col2 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 760px) {
+  .col2 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 960px) {
+  .col2 {
+    float: left;
+    width: 16.66666667%;
+  }
+}
+@media (min-width: 1200px) {
+  .col2 {
+    float: left;
+    width: 16.66666667%;
+  }
+}
+.col3 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 760px) {
+  .col3 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 960px) {
+  .col3 {
+    float: left;
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .col3 {
+    float: left;
+    width: 25%;
+  }
+}
+.col4 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 760px) {
+  .col4 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 960px) {
+  .col4 {
+    float: left;
+    width: 33.33333333%;
+  }
+}
+@media (min-width: 1200px) {
+  .col4 {
+    float: left;
+    width: 33.33333333%;
+  }
+}
+.col5 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 760px) {
+  .col5 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 960px) {
+  .col5 {
+    float: left;
+    width: 41.66666667%;
+  }
+}
+@media (min-width: 1200px) {
+  .col5 {
+    float: left;
+    width: 41.66666667%;
+  }
+}
+.col6 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 760px) {
+  .col6 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 960px) {
+  .col6 {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .col6 {
+    float: left;
+    width: 50%;
+  }
+}
+.col7 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 760px) {
+  .col7 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 960px) {
+  .col7 {
+    float: left;
+    width: 58.33333333%;
+  }
+}
+@media (min-width: 1200px) {
+  .col7 {
+    float: left;
+    width: 58.33333333%;
+  }
+}
+.col8 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 760px) {
+  .col8 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 960px) {
+  .col8 {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+@media (min-width: 1200px) {
+  .col8 {
+    float: left;
+    width: 66.66666667%;
+  }
+}
+.col9 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 760px) {
+  .col9 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 960px) {
+  .col9 {
+    float: left;
+    width: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  .col9 {
+    float: left;
+    width: 75%;
+  }
+}
+.col10 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 760px) {
+  .col10 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 960px) {
+  .col10 {
+    float: left;
+    width: 83.33333333%;
+  }
+}
+@media (min-width: 1200px) {
+  .col10 {
+    float: left;
+    width: 83.33333333%;
+  }
+}
+.col11 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 760px) {
+  .col11 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 960px) {
+  .col11 {
+    float: left;
+    width: 91.66666667%;
+  }
+}
+@media (min-width: 1200px) {
+  .col11 {
+    float: left;
+    width: 91.66666667%;
+  }
+}
+.col12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 760px) {
+  .col12 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 960px) {
+  .col12 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .col12 {
+    float: left;
+    width: 100%;
+  }
+}
+body,
+html {
+  height: 100%;
+}
+body {
+  font-size: 18px;
+  color: #333333;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+@media screen and (min-width: 760px) {
+  .container {
+    width: 730px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .container {
+    width: 930px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+@font-face {
+  font-family: 'BLOKKNeue-Regular';
+  src: url('../fonts/BLOKKNeue-Regular.eot');
+  src: url('../fonts/BLOKKNeue-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/BLOKKNeue-Regular.woff') format('woff'), url('../fonts/BLOKKNeue-Regular.svg#BLOKKNeue-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+section {
+  background: #b3b3b3;
+  position: relative;
+  padding: 35px;
+  margin-bottom: 30px;
+}
+section p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+section.content p {
+  position: static;
+  top: auto;
+  left: auto;
+  -webkit-transform: none;
+      -ms-transform: none;
+       -o-transform: none;
+          transform: none;
+  text-transform: none;
+  font-family: 'BLOKKNeue-Regular', monospace;
+}
+.dark {
+  color: #191919;
+}
+.light {
+  color: #666666;
+}
+.short {
+  min-height: 250px;
+}
+.avg {
+  min-height: 250px;
+}
+.tall {
+  min-height: 750px;
+}

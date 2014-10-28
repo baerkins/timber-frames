@@ -1,0 +1,34 @@
+// Section Defaults
+section {
+  background: @section-color;
+  position: relative;
+  padding: @section-padding;
+  margin-bottom: @grid-gutter-width;
+
+  p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+  }
+
+  &.content {
+    p {
+      position: static;
+      top: auto;
+      left: auto;
+      transform: none;
+      text-transform: none;
+      font-family: @font-family-lorem;
+    }
+  }
+}
+
+.dark {
+  color: @black-90;
+}
+
+.light {
+  color: @black-60;
+}
