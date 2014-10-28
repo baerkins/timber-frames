@@ -22,8 +22,8 @@ Node
 
 ## ToDo:
 - Build out section elements:
--- Slider
--- Accordion
--- Lorem Ipsum generated text
--- Custom Text with header
+⋅⋅- Slider
+⋅⋅- Accordion
+⋅⋅- Lorem Ipsum generated text
+⋅⋅- Custom Text with header
 - Navigation for all templates (either via data file or loop files in templates)
