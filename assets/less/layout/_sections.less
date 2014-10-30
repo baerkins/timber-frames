@@ -25,6 +25,56 @@ section {
   }
 }
 
+.profile-card {
+  border-left: @grid-padding-width solid #fff;
+  border-right: @grid-padding-width solid #fff;
+  min-height: @profile-min-height;
+
+  &:before {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid @section-color-dark;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+  }
+
+  &.square {
+    height: auto;
+    min-height: @profile-min-height;
+  }
+
+  &:after {
+    content: 'Lorem Ipsum';
+    display: block;
+    width: 100%;
+    color: @section-color-dark;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    text-align: center;
+  }
+
+  &.link {
+    &:after {
+      content: 'Read More';
+      width: 110px;
+      left: 50%;
+      right: auto;
+      margin-left: -55px;
+      padding: 5px;
+      background: lighten(@section-color-dark, 33%);
+    }
+  }
+}
+
 .dark {
   color: @black-90;
 }
