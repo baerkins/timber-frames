@@ -17,7 +17,8 @@ module.exports = function(grunt) {
     'index.html',
     '_layouts/*.html',
     '_includes/*.html',
-    '_sites/assets/js/scripts.js'
+    '_sites/assets/js/scripts.js',
+    '*.yml'
   ];
 
   grunt.initConfig({

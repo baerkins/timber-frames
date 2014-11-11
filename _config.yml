@@ -2,3 +2,10 @@ include: ['templates']
 
 # Exclude Files
 exclude: ['node_modules']
+
+# Root Setup
+# ----- LIVE ----- #
+# root_url: 'http://dev.byj2.com/wireframes/sample'
+# ----- DEV ----- #
+root_url: ''
+

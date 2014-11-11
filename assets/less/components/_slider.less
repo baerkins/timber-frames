@@ -1,0 +1,68 @@
+.flex-control-paging {
+  display: none;
+}
+
+.slider {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+
+  i {
+    font-size: 150px;
+    font-size: 20vw;
+    padding: 60px;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  li {
+    text-align: center;
+  }
+}
+
+.slider.arrows {
+  .flex-direction-nav {
+    display: block;
+    list-style: none;
+
+    a {
+      text-decoration:none;
+      display: block;
+      width: 40px;
+      height: 40px;
+      margin: -20px 0 0;
+      position: absolute;
+      top: 50%;
+      z-index: 9999;
+      overflow: hidden;
+      cursor: pointer;
+      color: rgba(0,0,0,0.8);
+
+      &:before {
+        font-size: 40px;
+        color: #fff;
+      }
+
+      &.flex-prev {
+        left: 20px;
+        &:before {
+          .fa-icon(@content: '\f104');
+          display: block;
+        }
+      }
+
+      &.flex-next {
+        right: 20px;
+
+        &:before {
+          .fa-icon(@content: '\f105');
+          display: block;
+          text-align: right;
+        }
+      }
+    }
+  }
+}

@@ -2,3 +2,23 @@
 .standardTrans(@style: all) {
   transition: all 0.35s;
 }
+
+// Font Awesome :after mixins
+.fa-icon(@content: '\f164') {
+  content: @content;
+  font-family: FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}

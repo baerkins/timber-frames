@@ -18,4 +18,8 @@ $(document).ready(function(){
     $(this).height(width);
   });
 
+  $('.slider').flexslider({
+    animation: 'slide',
+  });
+
 });
