@@ -14,7 +14,7 @@
 @screen-xs: 100%;
 
 // Fonts
-@font-family-sans-serif: 'Proxima', 'Helvetica Neue', Helvetica, sans-serif;
+@font-family-sans-serif: 'proxima-nova', 'Helvetica Neue', Helvetica, sans-serif;
 @font-family-serif:      'Tisa', Georgia, "Times New Roman", Times, serif;
 @font-family-lorem:      'BLOKKNeue-Regular', monospace;
 @font-primary: @font-family-sans-serif;
@@ -29,7 +29,7 @@
 // Colors
 @section-color:       @black-30;
 @section-color-dark:  @black-50;
-@text-color:          @black-80;
+@text-color:          @black;
 
 // ==---------------><---------------==
 //           SECTION VARIABLES
@@ -44,10 +44,26 @@
 
 @profile-min-height: 350px;
 
+// ==---------------><---------------==
+//        NAVIGATION VARIABLES
+// ==---------------><---------------==
+
+// General Nav
+@nav-item-padding-tb:        20px;
+@nav-item-padding-rl:        20px;
+@nav-item-font-size:         15px;
+
+// Template Navigation
+@templateNavDesktopWidth:    400px;
+@templateNavMobileWidth:     200px;
+
 
 // ==---------------><---------------==
 //          UTILITY VARIABLES
 // ==---------------><---------------==
+
+// Typography
+@standard-letter-spacing:   0.03em;
 
 // Min Sizes
 @screen-lg-min: (@screen-lg - 1);
@@ -59,6 +75,7 @@
 @container-lg: (@screen-lg - @grid-gutter-width);
 
 // Grayscale
+@white:                    #fff;
 @black-10:                 darken(#fff, 10%);
 @black-20:                 darken(#fff, 20%);
 @black-30:                 darken(#fff, 30%);
@@ -68,6 +85,6 @@
 @black-70:                 darken(#fff, 70%);
 @black-80:                 darken(#fff, 80%);
 @black-90:                 darken(#fff, 90%);
-
+@black:                    @black-80;
 
 

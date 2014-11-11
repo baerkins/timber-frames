@@ -12,6 +12,14 @@ module.exports = function(grunt) {
     'assets/js/_main.js'
   ];
 
+  var jekyllList = [
+    'templates/*.html',
+    'index.html',
+    '_layouts/*.html',
+    '_includes/*.html',
+    '_sites/assets/js/scripts.js'
+  ];
+
   grunt.initConfig({
     jshint: {
       options: {
@@ -32,12 +40,22 @@ module.exports = function(grunt) {
           ]
         },
         options: {
+          compress: false
+        }
+      },
+      jekyll: {
+        files: {
+          '_site/assets/css/main.css': [
+            'assets/less/main.less'
+          ]
+        },
+        options: {
           compress: false,
           // LESS source map
           // To enable, set sourceMap to true and update sourceMapRootpath based on your install
-          sourceMap: false,
-          // sourceMapFilename: 'assets/css/main.css.map',
-          // sourceMapRootpath: '/app/themes/roots/'
+          sourceMap: true,
+          sourceMapFilename: '_site/assets/css/main.css.map',
+          sourceMapRootpath: 'timber/'
         }
       },
       build: {
@@ -97,20 +115,30 @@ module.exports = function(grunt) {
         parseFiles: true
       }
     },
+    jekyll: {
+      dev: {
+        src: '.',
+        dest: './_site'
+      }
+    },
     watch: {
       less: {
         files: [
           'assets/less/*.less',
           'assets/less/**/*.less'
         ],
-        tasks: ['less:dev', 'autoprefixer:dev']
+        tasks: ['less:dev', 'less:jekyll', 'autoprefixer:dev']
       },
       js: {
         files: [
           jsFileList,
           '<%= jshint.all %>'
         ],
-        tasks: ['jshint', 'concat']
+        tasks: ['jshint', 'concat', 'jekyll']
+      },
+      jekyll: {
+        files: [jekyllList],
+        tasks: ['jekyll:dev']
       },
       livereload: {
         // Browser live reloading
@@ -121,8 +149,7 @@ module.exports = function(grunt) {
         files: [
           'assets/css/main.css',
           'assets/js/scripts.js',
-          'templates/*.php',
-          '**/*.php'
+          jekyllList
         ]
       }
     }
@@ -144,5 +171,6 @@ module.exports = function(grunt) {
     'autoprefixer:build',
     'uglify',
     'modernizr',
+    'jekyll:dev'
   ]);
 };

@@ -1,0 +1,18 @@
+<a href="#" class="template-nav-trigger" data-target="#template-nav">
+  <i class="fa fa-gear"></i>
+</a>
+
+<nav id="template-nav" class="template-nav-panel">
+  {% assign pages = site.pages | sort:"title"  %}
+  <ul class="template-nav-list">
+    {% for p in pages %}
+      {% if p.category == 'template' %}
+        <li>
+          <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+            {{ p.title }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>

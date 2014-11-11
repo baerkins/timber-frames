@@ -1,0 +1,4 @@
+include: ['templates']
+
+# Exclude Files
+exclude: ['node_modules']

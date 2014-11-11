@@ -1,12 +1,25 @@
-<header>
-  <div class="logo col3"></div>
-  <nav class="nav-justified col9">
-    <ul>
-      <li>Item</li>
-      <li>Item</li>
-      <li>Item</li>
-      <li>Item</li>
-      <li>Item</li>
-    </ul>
-  </nav>
-</header>
+<div class="container">
+  <div class="row">
+    <header class="masthead">
+      <div class="logo col3">
+        {% include image-x.html %}
+      </div>
+      <nav class="navbar nav-justified col9">
+        <ul>
+          <li>Item
+            <ul class="dropdown">
+              <li>Sub-Item</li>
+              <li>Sub-Item With A Long Title</li>
+              <li>Sub-Item</li>
+              <li>Sub-Item</li>
+            </ul>
+          </li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+          <li>Item</li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+</div>
